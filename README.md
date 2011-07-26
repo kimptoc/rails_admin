@@ -146,6 +146,20 @@ To use the CKEditor with Upload function, you can try [Rails-CKEditor](https://g
 
 You can configure more options of CKEditor "config.js" file following the [Api Documentation](http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html) .
 
+Rails 3.1
+---------
+
+Need to change the gem dependancies:
+    rails >= 3.0.9
+    bundle >= 2.0.1
+
+In Rails 3.1 assets, need to be in assets dir...
+So, post install, move from javascript and stylesheet dirs to the assets
+equivalent directories
+
+
+
+
 Usage
 -----
 Start the server:
